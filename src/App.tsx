@@ -84,7 +84,7 @@ export default function App() {
             </p>
           </Wrapper>
 
-          <Wrapper className={`${(isMobile && isShareClicked) ? 'bg-[#48556A]' : ''} relative h-[64px] md:h-[40px] px-[32px] py-[16px] md:p-0 flex flex-nowrap justify-between items-center`}>
+          <Wrapper className={`${(isMobile && isShareClicked) ? 'bg-[#48556A] rounded-b-[10px]' : ''} relative h-[64px] md:h-[40px] px-[32px] py-[16px] md:p-0 flex flex-nowrap justify-between items-center`}>
             {shareClickContent()}
             <button onClick={onShareClick} onBlur={onOutsideClick} className={`${isShareClicked ? 'bg-[#6E8098] right-0' : 'bg-[#ECF2F8]'} w-[32px] aspect-square rounded-full grid place-items-center`}>
               <svg className={isShareClicked ? 'fill-white' : 'fill-[#6E8098]'} xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" /></svg>
