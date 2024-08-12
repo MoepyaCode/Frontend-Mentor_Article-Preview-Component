@@ -11,6 +11,9 @@ export default {
     extend: {
       fontFamily: {
         manrope: ['Manrope', 'sans-serif'],
+      },
+      screens: {
+        xs: '375px',
       }
     },
   },
