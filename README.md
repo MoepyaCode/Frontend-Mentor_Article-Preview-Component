@@ -1,4 +1,4 @@
-# Title
+# Article preview component
 
 <!-- add description of project -->
 
